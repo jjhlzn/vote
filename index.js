@@ -8,7 +8,7 @@ var options = {
   }
 };
 
-setInterval( () => {
+setInterval( function() {
 
 request(options, function (error, response, body) {
   if (!error && response.statusCode == 200) {
